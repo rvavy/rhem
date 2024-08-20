@@ -1,0 +1,72 @@
+:root {
+    --light-grey: #dfdfdf;
+    --mid-grey: #a29c98;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0 1rem;
+    background-color: #023020;
+    color: var(--light-grey);
+}
+
+header {
+    background-color: #023020;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+main {
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid var(--light-grey);
+    color: var(--mid-grey);
+    padding: 1rem 0;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+ul {
+    column-width: 15rem;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+span {
+    display: block;
+}
+a {
+    color: #32cd32;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.company {
+    font-size: 1.3rem;
+}
+.company-title {
+    font-size: 1rem;
+}
+.company-summary {
+    font-size: 1.2rem;
+}
+
+
+
