@@ -1,6 +1,7 @@
 :root {
     --light-grey: #dfdfdf;
     --mid-grey: #a29c98;
+    --lime: #29A829;
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -21,8 +22,11 @@ body {
 header {
     background-color: #023020;
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem 0 2rem 0;
     border-bottom: 1px solid var(--light-grey);
+}
+header > p {
+    padding-bottom: 1rem;
 }
 
 main {
@@ -51,11 +55,22 @@ span {
     display: block;
 }
 a {
-    color: #32cd32;
+    color: var(--lime);
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
+}
+
+.button {
+    border: 1px solid var(--lime);
+    padding: 0.5rem 1.25rem;
+}
+.button:hover {
+    background-color: var(--lime);
+    color: var(--light-grey);
+    text-decoration: none;
+    transition: ease .3s
 }
 
 .company {
